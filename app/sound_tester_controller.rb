@@ -5,7 +5,7 @@ class SoundTesterController < UITableViewController
     cell = tableView.dequeueReusableCellWithIdentifier(CELLID) ||
       UITableViewCell.alloc.initWithStyle(UITableViewCellStyleDefault,
                                           reuseIdentifier: CELLID)
-    cell.textLabel.text = SOUNDS[row][:name]
+    cell.textLabel.text = "#{SOUNDS[row][:id]}: #{SOUNDS[row][:name]}"
     cell
   end
 
