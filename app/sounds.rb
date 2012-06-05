@@ -1,3 +1,4 @@
+# http://iphonedevwiki.net/index.php/AudioServices
 SOUNDS = [
   { id: 1000 , name: 'new-mail'                  },
   { id: 1001 , name: 'mail-sent'                 },
